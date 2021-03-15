@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: bank_of_dad
+    descriptions: one record per investment or deduction from the bank of dad
+    columns: 
+      - name: investment_key
+        description: primary key of the model
+        tests:
+          - unique
+          - not_null
+
+
+  
